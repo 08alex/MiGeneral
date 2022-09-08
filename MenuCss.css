@@ -1,0 +1,135 @@
+html,body {
+    height:100%;
+    background-color: #ba9a88;
+    /*background: linear-gradient( #db5c01, #ff9400, #f8a73f, #db5c01);*/
+}
+header {    
+    display:block;
+    background:#6D031C;
+    padding:10px 0px;
+}
+.titulo{
+    text-align: center;
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font: italic bold 75px Georgia, Serif;
+    text-shadow: -14px 7px 0 #000;
+}
+
+.cuadro{ /*Color más tenue*/
+    width:50%;
+    height:120px;
+    background: #f0464679;
+    position:absolute;
+    left: 290px;
+    top: 130px;
+}
+.cuadro2{
+    width:50%;
+    height:140px;
+    background: #FFF;
+    position:absolute;
+    left: 350px;
+    top: 150px;
+}
+.mensaje{
+    width:45%;
+    height:120px;
+    background: #fff;
+    position:absolute;
+    left: 380px;
+    top: 150px;
+
+    font-family: 'Corbel light';
+    font-size: 20px;
+    position:absolute;
+}
+.contenedor{
+    margin:0px auto;
+    background-color: rgba(18, 19, 18, 0.507);
+    padding: 25px;
+    border: solid 4px #ffe159;
+    width:1100px;
+    height:1300px;
+}
+
+footer{
+    margin:0px auto;
+    height:200px;
+    background: #262F34;
+    margin:0px auto;
+}
+
+.telefonoimg{
+    width:50px;
+    height:50px;
+    position:absolute;
+    right: 1000px;
+    top: 1790px;
+}
+.telefono{
+    color: #FFF;
+    font-size: 18px; 
+    font-family: 'Corbel light';
+    position:absolute;
+    right: 870px;
+    top: 1770px;
+}
+.facebookImg{
+    width:50px;
+    height:50px;
+    position:absolute;
+    right: 750px;
+    top: 1790px;
+}
+.facebook{
+    color: #FFF;
+    font-size: 18px; 
+    font-family: 'Corbel light';
+    position:absolute;
+    right: 500px;
+    top: 1800px;
+    
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul li{
+    width: 102%;/*Define el tamaño del cuadro negro*/
+}
+
+ul li figure{
+    padding: 0px;   /*DEFINE UN RECUADRO A CADA ELEMNTO*/
+    position: relative;
+}
+
+ul li figure:hover figcaption{
+    display: block; /*DEJA QUE APREZCA EL CUADRO*/
+}
+
+ul li figcaption{
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    background: rgba(0, 0, 0, 0.781);
+    text-align: center;
+    padding: 15px;
+    font: 20px/30px verdana;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 12px;
+
+}
+
+h1{
+    font-size: 20px;
+    line-height: normal;
+    color: #ffe159;
+}

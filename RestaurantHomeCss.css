@@ -1,0 +1,214 @@
+html,body {
+    height:100%;
+    background: #262F34;
+}
+/*Header<-------------------------*/
+header {    
+    display:block;
+    background:#262F34;
+    padding:10px 0px;
+}
+.head{
+    background-image: url("imagenes/FondoHead1.png");
+    width:100%;
+    height:460px;
+}
+.titulo{
+    background-color: rgba(40, 41, 40, 0.534);
+    padding: 25px;
+    border: solid 2px #ffe159;
+    margin:15px;
+
+    width:870px;
+    height:140px;
+    position:absolute;
+    left: 190px;
+    top: 140px;
+}
+.Logo{
+    top: 540px;
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 100;
+    font-size: 55px; 
+    font-family: 'Bernard MT Condensed';
+}
+.Logo2{
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 100;
+    font-size: 55px; 
+    font-family: 'sand dunes';
+}
+/*Menu de opciones<-------------------------*/
+ul.acorh {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul.acorh {
+    margin: 10px auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    font-size: 40px;
+    font-family: vogue;
+    text-align: center;
+}
+ul.acorh li {
+    list-style: none;
+}
+ul.acorh li a {
+    display: block;
+    padding: 10px 10px 10px 20px;
+    background: none;
+    color: #FFFFFF;
+    border-bottom: 1px solid #F34A4A;
+    border-top: 2px solid #F34A4A;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ul.acorh li ul {
+    max-height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    transition: .3s all ease-in;
+}
+ul.acorc li li:last-child a {
+    border-bottom: 0;
+}
+ul.acorh li:hover ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+}
+ul.acorh li a:hover {
+    background: #F34A4A;
+    color: #262F34;
+}
+/*Section<-------------------------*/
+section {
+    width: 100%;
+    background: #E8A735;
+    float: left;
+    padding-bottom: 1260px;
+    padding-top:0px;
+}
+.contenedor{
+    width:98.5%;
+    height:350px;
+    background: #FFF;
+    position:absolute;
+    left: 8px;
+    top: 650px;
+}
+.contenedortext{
+    font-family: 'Corbel light';
+    font-size: 28px;
+    width:470px;
+    height:350px;
+    background: #FFF;
+    position:absolute;
+    left: 550px;
+    top: 650px;
+}
+.contenedor2{
+    width:62.5%;
+    height:300px;
+    background: #FFF;
+    position:absolute;
+    left: 8px;
+    top: 1300px;
+    font-family: 'Corbel light';
+    font-size: 28px;
+}
+.imgcentro{
+    width:420px;
+    height:560px;
+    position:absolute;
+    left: 70px;
+    top: 690px;
+}
+/*Galeria<-------------------------*/
+.galeria {
+    width:420px;
+    height:560px;
+    margin:1em auto;
+    border: 8px solid #F34A4A;
+    position: absolute;
+    left: 860px;
+    top: 1170px;  
+}
+.galeria img {
+    position: absolute;
+    width:420px;
+    height:560px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+}
+.galeria input[type=radio] {
+    position: relative;
+    bottom: calc(-560px - 1.5em);
+    left: .5em;
+}
+.galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+    opacity: 1;
+} 
+.galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+    opacity: 1;
+}
+  .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+    opacity: 1;
+}
+  .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+    opacity: 1;
+}
+/*Pie de página<-------------------------*/
+.telefonoimg{
+    width:50px;
+    height:50px;
+    position:absolute;
+    right: 1090px;
+    top: 1900px;
+}
+.telefono{
+    color: #FFF;
+    font-size: 18px; 
+    font-family: 'Corbel light';
+    position:absolute;
+    right: 950px;
+    top: 1880px;
+}
+.facebookImg{
+    width:50px;
+    height:50px;
+    position:absolute;
+    right: 750px;
+    top: 1900px;
+}
+.facebook{
+    color: #FFF;
+    font-size: 18px; 
+    font-family: 'Corbel light';
+    position:absolute;
+    right: 500px;
+    top: 1920px;
+    
+}
+.link {
+    color: #FFF;
+    text-decoration: none;
+}
+footer {
+    margin-top: -50px;
+    height: 130px; 
+    padding:5px 0px;
+    clear: both;
+    background: #262F34;
+    color: #fff;
+}
